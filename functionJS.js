@@ -1,4 +1,4 @@
-function HelloWorld(nome){
+function HelloWorld(){
 
-    alert("Hello World " + nome + "!");
+    alert("Hello World");
 }
