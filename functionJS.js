@@ -8,3 +8,11 @@ function porcentagem(valorUm, baseUm, valorDois, baseDois){
 
     return {resultadoUm: calculoUm, resultadoDois: calculoDois};
 }
+
+
+function somarTodosOsItensDoArray(arrayASerSomado){
+    let somaDosItens = 0;
+    for (const i of arrayASerSomado) {
+        somaDosItens += i
+    }
+}
